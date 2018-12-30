@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "webpack": "webpack --watch",
-    "lite-server": "lite-server --baseDir=dist"
+    "lite-server": "lite-server --baseDir=docs"
   },
   "keywords": [],
   "author": "",

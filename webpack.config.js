@@ -11,7 +11,7 @@ module.exports = [
             "app": "./src/typescript/app.ts",
         },
         output: {
-            path: path.join(__dirname, "dist"),
+            path: path.join(__dirname, "docs"),
             filename: "[name].js",
         },
         devtool: "source-map",
@@ -52,7 +52,7 @@ module.exports = [
             style: "./main.scss"
         },
         output: {
-            path: path.join(__dirname, "dist"),
+            path: path.join(__dirname, "docs"),
             filename: "style.css"
         },
         module: {
